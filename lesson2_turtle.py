@@ -1552,7 +1552,7 @@ adam.forward(100)
 adam.left(90)
 adam.forward(100)
 adam.left(90)
-adam.left(20)
+adam.left(0)
 
 
 
@@ -1564,29 +1564,7 @@ adam.forward(100)
 adam.left(90)
 adam.forward(100)
 adam.left(90)
-adam.left(20)
-
-
-
-adam.forward(100)
-adam.left(90)
-adam.forward(100)
-adam.left(90)
-adam.forward(100)
-adam.left(90)
-adam.forward(100)
-adam.left(90)
-adam.left(20)
-
-
-
-adam.forward(100)
-adam.left(90)
-adam.forward(100)
-adam.left(90)
-adam.forward(100)
-adam.left(90)
-
+adam.left
 
 
 
