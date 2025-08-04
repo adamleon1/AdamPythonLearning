@@ -9,10 +9,14 @@ for i in range(-200,201,50):
     tt.penup()
     tt.goto(-300,i)
     turtlestoer.append(tt)
-
-while True:
+running = True
+while running:
     for tt in turtlestoer:
         tt.forward(random.randint(1,15))
         tt.circle (100)
+        if tt.xcor()>300:
+            running = False
+
+        
 
 turtle.mainloop()
